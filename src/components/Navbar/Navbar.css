@@ -1,0 +1,17 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1800px;
+  margin: auto;
+  color: crimson;
+}
+.Nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.Nav ul li a {
+  text-decoration: none;
+  color: crimson;
+  margin: 0 1em;
+}/*# sourceMappingURL=Navbar.css.map */
