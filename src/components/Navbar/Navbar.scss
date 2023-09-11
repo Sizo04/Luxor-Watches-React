@@ -1,3 +1,5 @@
+$accent-color: #d60032;
+
 .Nav {
   display: flex;
   justify-content: space-between;
@@ -5,7 +7,8 @@
   max-width: 1800px;
   margin: auto;
 
-  color: crimson;
+  padding: 1em 0;
+  color: $accent-color;
 
   ul {
     display: flex;
@@ -13,8 +16,10 @@
     li {
       a {
         text-decoration: none;
-        color: crimson;
+        color: $accent-color;
         margin: 0 1em;
+        font-size: 20px;
+        font-weight: 500;
       }
     }
   }
