@@ -1,0 +1,41 @@
+$accent-color: #d60032;
+
+.hero-container {
+  display: flex;
+  height: 100vh;
+  .text {
+    display: flex;
+    margin: 0 5rem;
+    .text-container {
+      margin: auto;
+      h4 {
+        font-size: 32px;
+        color: $accent-color;
+      }
+
+      h2 {
+        font-size: 62px;
+      }
+
+      p {
+        max-width: 600px;
+      }
+
+      .brands {
+        button {
+          border: 0;
+          margin: 1em;
+          background-color: rgba(240, 248, 255, 0);
+          img {
+            max-width: 100px;
+            max-height: 46px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  .image {
+  }
+}

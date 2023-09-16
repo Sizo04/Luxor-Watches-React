@@ -1,1 +1,31 @@
-/*# sourceMappingURL=Hero.css.map */
+.hero-container {
+  display: flex;
+  height: 100vh;
+}
+.hero-container .text {
+  display: flex;
+  margin: 0 5rem;
+}
+.hero-container .text .text-container {
+  margin: auto;
+}
+.hero-container .text .text-container h4 {
+  font-size: 32px;
+  color: #d60032;
+}
+.hero-container .text .text-container h2 {
+  font-size: 62px;
+}
+.hero-container .text .text-container p {
+  max-width: 600px;
+}
+.hero-container .text .text-container .brands button {
+  border: 0;
+  margin: 1em;
+  background-color: rgba(240, 248, 255, 0);
+}
+.hero-container .text .text-container .brands button img {
+  max-width: 100px;
+  max-height: 46px;
+  cursor: pointer;
+}/*# sourceMappingURL=Hero.css.map */

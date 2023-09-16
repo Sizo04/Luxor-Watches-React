@@ -17,4 +17,51 @@
   margin: 0 1em;
   font-size: 20px;
   font-weight: 500;
+}
+.Nav ul button {
+  border: none;
+  display: none;
+}
+.Nav ul button img {
+  max-width: 35px;
+}
+.Nav .links {
+  display: flex;
+}
+
+nav {
+  margin: 0 1em;
+}
+nav .hamMenu {
+  position: absolute;
+  top: 5rem;
+  justify-content: space-between;
+  width: 100%;
+}
+nav .hamMenu .open {
+  display: flex;
+}
+nav .hamMenu ul {
+  display: none;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0 5em;
+  align-items: center;
+}
+nav .hamMenu ul li {
+  margin: 1em 0;
+}
+nav .hamMenu ul li a {
+  color: #d60032;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .Nav ul li {
+    display: none;
+  }
+  .Nav ul button {
+    display: block;
+  }
 }/*# sourceMappingURL=Navbar.css.map */

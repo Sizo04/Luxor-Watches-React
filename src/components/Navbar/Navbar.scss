@@ -22,5 +22,61 @@ $accent-color: #d60032;
         font-weight: 500;
       }
     }
+
+    button {
+      border: none;
+      display: none;
+      img {
+        max-width: 35px;
+      }
+    }
+  }
+
+  .links {
+    display: flex;
+  }
+}
+
+nav {
+  margin: 0 1em;
+  .hamMenu {
+    position: absolute;
+    top: 5rem;
+
+    justify-content: space-between;
+    width: 100%;
+    .open {
+      display: flex;
+    }
+    ul {
+      display: none;
+      flex-direction: column;
+      list-style-type: none;
+      justify-content: center;
+      padding: 0 5em;
+      align-items: center;
+
+      li {
+        margin: 1em 0;
+
+        a {
+          color: $accent-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Nav {
+    ul {
+      li {
+        display: none;
+      }
+      button {
+        display: block;
+      }
+    }
   }
 }
