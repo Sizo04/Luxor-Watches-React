@@ -4,7 +4,6 @@ import patek from "../Images/patek.png";
 import rolex from "../Images/rolex.png";
 import tag from "../Images/TAG_Heuer_Logo.svg.png";
 import vacheron from "../Images/vacheron.png";
-import heroImg from "../Images/luxor rolex.png";
 
 function Hero() {
   return (
@@ -13,7 +12,7 @@ function Hero() {
         <div className="text">
           <div className="text-container">
             <h4>Luxor Watches</h4>
-            <h2>Luxury Time Piece</h2>
+            <h2>Luxury Time Pieces</h2>
             <p>
               Welcome to Luxor Watches, your one-stop shop for luxury
               timepieces. We carry a wide selection of watches from the world's

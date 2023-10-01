@@ -8,13 +8,15 @@ $accent-color: #d60032;
     margin: 0 5rem;
     .text-container {
       margin: auto;
+      color: white;
+      backdrop-filter: blur(5px);
       h4 {
-        font-size: 32px;
+        font-size: 42px;
         color: $accent-color;
       }
 
       h2 {
-        font-size: 62px;
+        font-size: 82px;
       }
 
       p {
@@ -34,8 +36,5 @@ $accent-color: #d60032;
         }
       }
     }
-  }
-
-  .image {
   }
 }

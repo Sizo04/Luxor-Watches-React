@@ -8,13 +8,16 @@
 }
 .hero-container .text .text-container {
   margin: auto;
+  color: white;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
 }
 .hero-container .text .text-container h4 {
-  font-size: 32px;
+  font-size: 42px;
   color: #d60032;
 }
 .hero-container .text .text-container h2 {
-  font-size: 62px;
+  font-size: 82px;
 }
 .hero-container .text .text-container p {
   max-width: 600px;
