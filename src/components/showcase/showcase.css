@@ -6,13 +6,15 @@
 }
 .showcases .showcase {
   display: flex;
+  justify-content: center;
 }
 .showcases .showcase .container {
   display: flex;
+  max-width: 1600px;
   width: 100%;
   justify-content: center;
   align-items: center;
-  gap: 35em;
+  margin: 0 1em;
 }
 .showcases .showcase .container img {
   max-width: 400px;
@@ -20,6 +22,7 @@
 }
 .showcases .showcase .container .text {
   color: white;
+  margin: 0 0 0 auto;
 }
 .showcases .showcase .container .text h1 {
   font-size: 48px;
@@ -34,14 +37,16 @@
 }
 .showcases .showcase2 {
   display: flex;
+  justify-content: center;
 }
 .showcases .showcase2 .container {
   display: flex;
   flex-direction: row-reverse;
+  max-width: 1600px;
   width: 100%;
   justify-content: center;
   align-items: center;
-  gap: 35em;
+  margin: 0 1em;
 }
 .showcases .showcase2 .container img {
   max-width: 400px;
@@ -49,6 +54,7 @@
 }
 .showcases .showcase2 .container .text {
   color: white;
+  margin: 0 auto 0 0;
 }
 .showcases .showcase2 .container .text h1 {
   font-size: 48px;
@@ -60,4 +66,47 @@
 .showcases .showcase2 .container .text p {
   max-width: 700px;
   font-size: 18px;
+}
+
+@media only screen and (max-width: 860px) {
+  .showcases .showcase .container {
+    flex-direction: column;
+    margin: 1em 0;
+  }
+  .showcases .showcase .container .text {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .showcases .showcase .container .text h1 {
+    margin: auto;
+  }
+  .showcases .showcase .container .text h3 {
+    margin: auto;
+  }
+  .showcases .showcase .container .text p {
+    text-align: center;
+  }
+  .showcases .showcase2 .container {
+    flex-direction: column;
+    margin: 1em 0;
+  }
+  .showcases .showcase2 .container .text {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .showcases .showcase2 .container .text h1 {
+    margin: auto;
+  }
+  .showcases .showcase2 .container .text h3 {
+    margin: auto;
+  }
+  .showcases .showcase2 .container .text p {
+    text-align: center;
+  }
 }/*# sourceMappingURL=showcase.css.map */

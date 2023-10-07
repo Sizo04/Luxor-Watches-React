@@ -33,7 +33,6 @@ nav {
   margin: 0 1em;
 }
 nav .hamMenu {
-  position: absolute;
   top: 5rem;
   justify-content: space-between;
   width: 100%;
@@ -63,5 +62,6 @@ nav .hamMenu ul li a {
   }
   .Nav ul button {
     display: block;
+    background: none;
   }
 }/*# sourceMappingURL=Navbar.css.map */

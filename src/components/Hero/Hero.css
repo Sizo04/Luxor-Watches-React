@@ -31,4 +31,24 @@
   max-width: 100px;
   max-height: 46px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 860px) {
+  .hero-container {
+    text-align: center;
+  }
+  .hero-container .text {
+    margin: auto;
+  }
+  .hero-container .text .text-container p {
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .hero-container .text .text-container h4 {
+    font-size: 22px;
+  }
+  .hero-container .text .text-container h2 {
+    font-size: 62px;
+  }
 }/*# sourceMappingURL=Hero.css.map */

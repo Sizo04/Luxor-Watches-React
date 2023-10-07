@@ -8,13 +8,15 @@ $accent-color: #d60032;
 
   .showcase {
     display: flex;
+    justify-content: center;
 
     .container {
       display: flex;
+      max-width: 1600px;
       width: 100%;
       justify-content: center;
       align-items: center;
-      gap: 35em;
+      margin: 0 1em;
 
       img {
         max-width: 400px;
@@ -23,6 +25,7 @@ $accent-color: #d60032;
 
       .text {
         color: white;
+        margin: 0 0 0 auto;
         h1 {
           font-size: 48px;
         }
@@ -39,20 +42,24 @@ $accent-color: #d60032;
   }
   .showcase2 {
     display: flex;
+    justify-content: center;
 
     .container {
       display: flex;
       flex-direction: row-reverse;
+      max-width: 1600px;
       width: 100%;
       justify-content: center;
       align-items: center;
-      gap: 35em;
+      margin: 0 1em;
+
       img {
         max-width: 400px;
         max-height: 540px;
       }
       .text {
         color: white;
+        margin: 0 auto 0 0;
         h1 {
           font-size: 48px;
         }
@@ -63,6 +70,56 @@ $accent-color: #d60032;
         p {
           max-width: 700px;
           font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .showcases {
+    .showcase {
+      .container {
+        flex-direction: column;
+        margin: 1em 0;
+        .text {
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          h1 {
+            margin: auto;
+          }
+          h3 {
+            margin: auto;
+          }
+          p {
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .showcase2 {
+      .container {
+        flex-direction: column;
+        margin: 1em 0;
+        .text {
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          h1 {
+            margin: auto;
+          }
+          h3 {
+            margin: auto;
+          }
+          p {
+            text-align: center;
+          }
         }
       }
     }

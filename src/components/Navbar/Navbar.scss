@@ -40,7 +40,6 @@ $accent-color: #d60032;
 nav {
   margin: 0 1em;
   .hamMenu {
-    position: absolute;
     top: 5rem;
 
     justify-content: space-between;
@@ -76,6 +75,7 @@ nav {
       }
       button {
         display: block;
+        background: none;
       }
     }
   }
