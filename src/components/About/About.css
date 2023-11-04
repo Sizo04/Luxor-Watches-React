@@ -1,0 +1,59 @@
+.about {
+  background-image: url(../Images/lilian-velet-csel54OXb4I-unsplash.jpg);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.about .container {
+  max-width: 800px;
+  margin: 0 10em;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+.about .container .text {
+  text-align: center;
+}
+.about .container .text h1 {
+  color: #d60032;
+  font-size: 64px;
+}
+.about .container .text p {
+  color: white;
+}
+.about .container .text .line {
+  border: 1px solid crimson;
+  width: 1px;
+  margin: 0.5em auto;
+  height: 40px;
+}
+.about .container .text button {
+  padding: 1em 2em;
+  border: 2px solid #d60032;
+  border-radius: 5px;
+  color: #d60032;
+  font-weight: bold;
+  background-color: rgba(214, 0, 50, 0);
+  cursor: pointer;
+  margin-top: 40px;
+}
+.about .container .text button:hover {
+  color: white;
+  background-color: #d60032;
+}
+
+@media only screen and (max-width: 1400px) {
+  .about {
+    justify-content: center;
+    max-height: 100vh;
+  }
+  .about .container {
+    margin: 1em 0;
+  }
+  .about .container .text h1 {
+    font-size: 42px;
+  }
+  .about .container .text .line {
+    height: 20px;
+  }
+}/*# sourceMappingURL=About.css.map */
