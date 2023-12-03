@@ -1,1 +1,30 @@
-/*# sourceMappingURL=Footer.css.map */
+footer {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #d60032;
+  border-bottom: 1px solid #d60032;
+}
+footer .footer-container {
+  padding: 2em;
+}
+footer .footer-container .icons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+footer .footer-container .icons a img {
+  max-width: 30px;
+  margin: 0 10px;
+}
+footer .footer-container .text {
+  margin: 1.5em 0;
+  text-align: center;
+  color: gray;
+}
+footer .footer-container .text a {
+  color: gray;
+  text-decoration: none;
+  margin: 0 2px;
+}/*# sourceMappingURL=Footer.css.map */
