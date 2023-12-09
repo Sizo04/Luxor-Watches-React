@@ -59,4 +59,20 @@
 }
 .container2 .hidden {
   display: none;
+}
+
+@media only screen and (max-width: 1130px) {
+  .container2 .display {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container2 .display .case {
+    display: flex;
+    max-width: 500px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .container2 .display .case img {
+    max-width: 320px;
+  }
 }/*# sourceMappingURL=Popular.css.map */
